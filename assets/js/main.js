@@ -154,9 +154,6 @@
   });
 
 
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
 
 
   new Swiper('.portfolio-details-slider', {

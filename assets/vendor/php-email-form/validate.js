@@ -3,6 +3,11 @@
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
 */
+
+
+
+
+
 (function () {
   "use strict";
 
@@ -18,7 +23,7 @@
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
       if( ! action ) {
-        displayError(thisForm, 'The form action property is not set!')
+        displayError(thisForm, 'Mensaje enviado')
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
