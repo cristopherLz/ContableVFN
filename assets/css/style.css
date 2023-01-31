@@ -31,6 +31,16 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+img{
+  width: 640px;
+}
+@media screen and (max-width: 768px) {
+  img{
+    width: 380px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -416,6 +426,357 @@ h6 {
   display: block;
 }
 
+
+/*--------------------------------------------------------------
+# BannerService Section
+--------------------------------------------------------------*/
+#bannerService{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/1.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerService .container {
+  padding-top: 80px;
+}
+
+#bannerService:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerService h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerService h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerService {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerServiceo {
+    height: 100vh;
+  }
+
+  
+#bannerService .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerService h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+/*--------------------------------------------------------------
+# End BannerService Section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Laboral Section
+--------------------------------------------------------------*/
+#bannerLaboral{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/2.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerLaboral .container {
+  padding-top: 80px;
+}
+
+#bannerLaboral:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerLaboral h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerLaboral h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerLaboral {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerLaboral {
+    height: 100vh;
+  }
+
+  
+#bannerLaboral .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerLaboral h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# End-Laboral Section
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# actualizacion Contable
+--------------------------------------------------------------*/
+#bannerContable{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/3.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerContable .container {
+  padding-top: 80px;
+}
+
+#bannerContable:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerContable h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerContable h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerContable {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerContable {
+    height: 100vh;
+  }
+
+  
+#bannerContable .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerContable h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+#  actualizacion Contable
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# asesoria Legal
+--------------------------------------------------------------*/
+#bannerLegal{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/4.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerLegal .container {
+  padding-top: 80px;
+}
+
+#bannerLegal:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerLegal h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerLegal h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerLegal {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerLegal {
+    height: 100vh;
+  }
+
+  
+#bannerLegal .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerLegal h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+#  end asesoria legal
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# asesoria Tributaria
+--------------------------------------------------------------*/
+#bannerTribu{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/6.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerTribu .container {
+  padding-top: 80px;
+}
+
+#bannerTribu:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerTribu h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerTribu h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerTribu {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerTribu {
+    height: 100vh;
+  }
+
+  
+#bannerTribu .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerTribu h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+#  end asesoria Tributaria
+--------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -569,6 +930,10 @@ section {
   transform: scale(1.2);
 }
 }
+
+.ratio{
+  width: 200px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -607,7 +972,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about .content img{
+  width: 500px;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
