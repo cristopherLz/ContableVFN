@@ -776,6 +776,440 @@ img{
 /*--------------------------------------------------------------
 #  end asesoria Tributaria
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# bannerAsesoriaLaboral
+--------------------------------------------------------------*/
+#bannerAsesoriaLaboral{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/7.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerAsesoriaLaboral .container {
+  padding-top: 80px;
+}
+
+#bannerAsesoriaLaboral:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerAsesoriaLaboral h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerAsesoriaLaboral h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerAsesoriaLaboral {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerAsesoriaLaboral {
+    height: 100vh;
+  }
+
+  
+#bannerAsesoriaLaboral .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerAsesoriaLaboral h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  end bannerAsesoriaLaboral
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero-bg.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero .container {
+  padding-top: 80px;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  background-color: #0479ff;
+  border: 2px solid #0479ff;
+  color: #fff;
+}
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+
+  #hero .container {
+    padding-top: 60px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+# bannerbannerAsesoriaInventarios
+--------------------------------------------------------------*/
+#bannerAsesoriaInventarios{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/8.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerAsesoriaInventarios .container {
+  padding-top: 80px;
+}
+
+#bannerAsesoriaInventarios:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerAsesoriaInventarios h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerAsesoriaInventarios h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerAsesoriaInventarios {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerAsesoriaInventarios {
+    height: 100vh;
+  }
+
+  
+#bannerAsesoriaInventarios .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerAsesoriaInventarios h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  end bannerAsesoriaInventarios
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# bannerAuditoria
+--------------------------------------------------------------*/
+#bannerAuditoria{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/9.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerAuditoria .container {
+  padding-top: 80px;
+}
+
+#bannerAuditoria:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerAuditoria h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerAuditoria h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerAuditoria {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerAuditoria {
+    height: 100vh;
+  }
+
+  
+#bannerAuditoria .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerAuditoria h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  end bannerAuditoria
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# bannerAuditoria
+--------------------------------------------------------------*/
+#bannerFacturacion{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/10.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerFacturacion .container {
+  padding-top: 80px;
+}
+
+#bannerFacturacion:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerFacturacion h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerFacturacion h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerFacturacion {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerFacturacion {
+    height: 100vh;
+  }
+
+  
+#bannerFacturacion .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerFacturacion h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  end bannerAuditoria
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# bannerConcilacion
+--------------------------------------------------------------*/
+#bannerConcilacion{
+  width: 100%;
+  height: 40vh;
+  background: url("../img/servicios/11.jpg");
+  background-size: cover;
+  position: relative;
+}
+#bannerConcilacion .container {
+  padding-top: 80px;
+}
+
+#bannerConcilacion:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bannerConcilacion h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#bannerConcilacion h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+ 
+#bannerConcilacion {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+#bannerConcilacion {
+    height: 100vh;
+  }
+
+  
+#bannerConcilacion .container {
+    padding-top: 60px;
+  }
+
+ 
+#bannerConcilacion h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+#  end bannerConcilacion
+--------------------------------------------------------------*/
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -857,6 +1291,11 @@ img{
     line-height: 36px;
   }
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Sections General
